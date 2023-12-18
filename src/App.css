@@ -100,10 +100,13 @@ header .gnb .container_cate .section > p > a {color:var(--fontWhite); font-size:
 /* footer */
 footer { padding:30px 4.16%; background:var(--main-bg);}
 footer .copyright {color:var(--fontWhite); font-size:14px; font-weight:700;}
+footer .github > a {display:block; margin-top:10px; padding-left:24px; background:url('../public/img/github_icon_w.png') no-repeat center left/auto 18px; color:var(--fontWhite); font-size:13px; font-weight:700;}
 
 
 /* cont box */
-.cont_box .img_box {position: relative;}
+.cont_box .img_box {position:relative;}
+.cont_box .img_box:after {display:none; justify-content:center; align-items:center; position:absolute; top:0; left:0; z-index:5; width:100%; height:100%; border-radius:var(--imageBorderRadius); background:rgba(0,0,0,0.6); font-size:26px; cursor:pointer; content:'🔎';}
+.cont_box .img_box:hover:after {display:flex;}
 .cont_box .img_box img {width:100%; height:auto; border-radius:var(--imageBorderRadius);}
 .cont_box .img_box .vote {display:flex; align-items:center; justify-content:center; position:absolute; bottom:10px; right:10px; width:37px; height:37px; border:2px solid var(--tmdbLighterGreen); border-radius:50%; background:var(--fontBlack); color:var(--fontWhite);}
 .cont_box .info {padding-top:10px;}
@@ -199,6 +202,7 @@ footer .copyright {color:var(--fontWhite); font-size:14px; font-weight:700;}
 
     .list_page .list {grid-template-columns:repeat(6, 1fr); column-gap:20px; row-gap:20px;}
 
+    .detail_page {min-height:750px;}
     .detail_page h1.title {padding:50px 0 30px; font-size:35px; line-height:35px;}
     .detail_page .info_box {display:flex; flex-direction:row; align-items:start; column-gap:30px;}
     .detail_page .info_box .img_section {width:60%;}
