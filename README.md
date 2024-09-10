@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+### MOVIE DB
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 페이지 링크 : https://rafdidas.github.io/movie_db/
 
-## Available Scripts
+### React 와 TMDB라는 Api를 활용하여 만든 영화의 정보를 알 수 있는 사이트 입니다.
+* 전체 페이지 반응형으로 작업되었습니다.
 
-In the project directory, you can run:
+### 1.페이지 구성
+   #### * 메인페이지
+   - 메인페이지는 api의 Trend 항목을 보여줍니다.
+   - Movie, Tv 시리즈 각각을 Swiper Slide로 보여준 뒤 아래에 전체적인 Trend 항목들을 Pagination으로 나눴습니다.
 
-### `npm start`
+   #### * Movie 페이지
+   - 상단 Now Playing Movies 부분에는 현재 극장에서 상영중인 영화들의 정보를 가져와 슬라이드로 구성하였습니다.
+   - 하단 전첵 영화리스트는 Pagination 과 영화의 장르 카테고리로 구성하여, 장르별 영화리스트를 확인 할 수 있습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   #### * TV Series 페이지
+   - Popular TV Series의 정보를 가져와 장르 카테고리로 구성하여, 장르별 영화리스트를 확인 할 수 있습니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   #### * Search 페이지
+   - TV Series, Movie 를 검색하여 상세페이지로 이동 가능합니다.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   #### * 상세페이지
+   - 영화의 상세페이지에서는 영화의 포스터 썸네일과 배경을 넣었으며, 영화의 간단한 소개, 개봉 날짜, 수익, 상영 시간, 별점의 정보를 확인 할 수 있습니다.
