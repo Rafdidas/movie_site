@@ -13,7 +13,6 @@
     "swiper": "^11.0.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://Rafidas.github.io/movie_db",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
