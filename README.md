@@ -1,6 +1,8 @@
 # MOVIE DB
-https://rafdidas.github.io/movie_db/
 
+https://movie-db-v1.netlify.app/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/28d14f02-6198-4836-8719-085267b808d0/deploy-status)](https://app.netlify.com/sites/movie-db-v1/deploys)
 ## 1. 소개 및 참여 인원
 - TMDB를 활용한 영화 및 티비시리즈 정보 사이트
 - 개인 프로젝트
