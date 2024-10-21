@@ -30,7 +30,7 @@ const Header = () => {
     return(
         <header>
             <div className="gnb">
-                <h1 className="hd_title"><NavLink to={"/movie_db/"}><img src={process.env.PUBLIC_URL + `/img/tmdb_logo.svg`} alt="logo" /></NavLink></h1>
+                <h1 className="hd_title"><NavLink to={"/"}><img src={process.env.PUBLIC_URL + `/img/tmdb_logo.svg`} alt="logo" /></NavLink></h1>
                 
                 <div className="container_cate">
                     {
